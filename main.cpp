@@ -19,5 +19,5 @@ int main()
     {
         cout << "x_ptr zero" << endl;
     }
-
+    delete x_ptr;
 }
