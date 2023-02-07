@@ -20,4 +20,5 @@ int main()
        
     
     delete x_ptr;
+    delete y_ptr;
 }
