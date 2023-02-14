@@ -17,7 +17,10 @@ int main()
     {
         cout << *x_ptr << endl;
     }
-       
+    if (x_ptr == y_ptr)
+    {
+        cout << *x_ptr = *y_ptr << endl;
+    }
     
     delete x_ptr;
     delete y_ptr;
